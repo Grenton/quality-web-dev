@@ -22,7 +22,7 @@ dl, ol, ul{
 ol,ul{
   padding-left: 2rem;
 }
-ul, table{
+ul {
   display: block;
   list-style-type: disc;
   margin-block-start: 1em;
@@ -33,6 +33,15 @@ ul, table{
   padding-inline-end: 40px;
   font-size: .875em;
   line-height: 1.45!important;
+}
+
+table {
+  font-size: .875em;
+  line-height: 1.45!important;
+}
+
+.table-search {
+  max-width: 300px;
 }
 .lh-sm{
   line-height: 1.25!important;
